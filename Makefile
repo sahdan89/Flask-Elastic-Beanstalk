@@ -10,6 +10,6 @@ lint:
 
 deploy:
 	echo "Deploying app"
-	eb deploy flask-demo-env
+	eb list
 
 all: install lint test 
